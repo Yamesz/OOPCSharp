@@ -6,6 +6,23 @@ using System.Threading.Tasks;
 
 namespace OOPCSharp.泛型
 {
+    /*
+    {
+      "Version": "V1",
+      "Data": "發生例外",
+      "ErrorCode": 3.1
+    }
+
+    {
+      "Version": "V1",
+      "Data": {
+        "ID": 87,
+        "Name": "產品"
+      },
+      "ErrorCode": 1
+    }
+ 
+    */
     public interface IAPIData<T, U>
         where T : class
         where U : struct

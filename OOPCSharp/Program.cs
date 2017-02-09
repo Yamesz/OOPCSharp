@@ -39,7 +39,7 @@ namespace OOPCSharp
 
 
             //實作
-            int id = 9;
+            var id = 1.1;
             var typeName1 = id.GetType().Name; //Int32
 
             Product p = new Product();
