@@ -6,7 +6,7 @@ using System.Threading.Tasks;
 
 namespace OOPCSharp.泛型
 {
-    public static class Demo
+    public static class 泛型Demo
     {
         public static IAPIData<Product, int> Demo1(string json)
         {

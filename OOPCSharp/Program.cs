@@ -29,7 +29,7 @@ namespace OOPCSharp
                 }
             };
             var json = Helper.ToJson(temp);
-            var a1 = Demo.Demo1(json);
+            var a1 = 泛型Demo.Demo1(json);
 
             var temp2 = new APIData<string, float>()
             {
@@ -38,7 +38,7 @@ namespace OOPCSharp
                 Data = "發生錯誤"
             };
             json = Helper.ToJson(temp2);
-            var a2 = Demo.Demo2(json);
+            var a2 = 泛型Demo.Demo2(json);
 
 
             //實作
