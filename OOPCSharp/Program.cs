@@ -1,4 +1,5 @@
-﻿using OOPCSharp.泛型;
+﻿using OOPCSharp.委派;
+using OOPCSharp.泛型;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -12,6 +13,8 @@ namespace OOPCSharp
         static void Main(string[] args)
         {
             泛型();
+            實值型別參考型別();
+
         }
         private static void 泛型()
         {
@@ -45,6 +48,17 @@ namespace OOPCSharp
             Product p = new Product();
             var typeName2 = p.GetType().Name;  //Product
 
+            //var t1 = Helper.GetTypeName(id);
+            //var t2 = Helper.GetTypeName(p);
+
+        }
+
+
+
+        private static void 實值型別參考型別()
+        {
+            var vr = new ValueType_ReferenceType();
+            vr.Demo1();
         }
     }
 }
