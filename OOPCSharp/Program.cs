@@ -12,9 +12,9 @@ namespace OOPCSharp
     {
         static void Main(string[] args)
         {
-            泛型();
-            實值型別參考型別();
-
+            //泛型();
+            //實值型別參考型別();
+            委派();
         }
         private static void 泛型()
         {
@@ -59,6 +59,12 @@ namespace OOPCSharp
         {
             var vr = new ValueType_ReferenceType();
             vr.Demo1();
+        }
+
+        private static void 委派()
+        {
+            var d = new DelegateDemo();
+            d.Demo1();
         }
     }
 }
