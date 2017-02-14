@@ -11,6 +11,7 @@ namespace OOPCSharp.委派
     {
         public void demo1()
         {
+            //Func<輸入, 輸出> f1 = ???
 
             Action<string> a4 = x => { var t = x + "M5"; };
         }

@@ -28,10 +28,18 @@ namespace OOPCSharp.委派
             };
 
             //運算式 Lambda
-            Func<int, string> doo3 = x=> x.ToString();
+            Func<int, string> doo3 = x => x.ToString();
 
             string result2 = doo3(5);
             Demo2(doo3);
+
+            //輸入更簡化
+            Func<int, string> doo5 = (int x) => x.ToString();
+            Func<int, string> doo6 = x => x.ToString();
+
+            Func<int, float, string> b3 = (int x, float y) => (x + y).ToString();
+            Func<int, float, string> b4 = ( x, y) => (x + y).ToString();
+
         }
 
         public void Demo2(Func<int, string> d)
