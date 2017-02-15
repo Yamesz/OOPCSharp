@@ -12,9 +12,11 @@ namespace OOPCSharp
     {
         static void Main(string[] args)
         {
-            //泛型();
-            //實值型別參考型別();
+            泛型();
+            實值型別參考型別();
             委派();
+            Func();
+            LambdaExpression();
         }
         private static void 泛型()
         {
@@ -66,5 +68,19 @@ namespace OOPCSharp
             var d = new DelegateDemo();
             d.Demo1();
         }
+
+        private static void Func()
+        {
+            var d = new FuncDemo();
+            d.Demo1();
+        }
+
+        private static void LambdaExpression()
+        {
+            var d = new LambdaExpressionDemo();
+            d.Demo1();
+        }
+        
+
     }
 }
