@@ -1,4 +1,5 @@
-﻿using OOPCSharp.委派;
+﻿using Common;
+using OOPCSharp.委派;
 using OOPCSharp.泛型;
 using System;
 using System.Collections.Generic;

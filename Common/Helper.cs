@@ -5,7 +5,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace OOPCSharp.泛型
+namespace Common
 {
     public class Helper
     {

@@ -5,6 +5,10 @@ VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OOPCSharp", "OOPCSharp\OOPCSharp.csproj", "{C9CD6994-9199-4DFF-961D-6B33B9F7AD20}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Reflection", "Reflection\Reflection.csproj", "{7A8FC0DB-1CD9-4CDD-87A9-839319531F92}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Common", "Common\Common.csproj", "{C0952EAA-E99C-4804-9BC2-8B59B043C5FE}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{C9CD6994-9199-4DFF-961D-6B33B9F7AD20}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C9CD6994-9199-4DFF-961D-6B33B9F7AD20}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C9CD6994-9199-4DFF-961D-6B33B9F7AD20}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7A8FC0DB-1CD9-4CDD-87A9-839319531F92}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7A8FC0DB-1CD9-4CDD-87A9-839319531F92}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7A8FC0DB-1CD9-4CDD-87A9-839319531F92}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7A8FC0DB-1CD9-4CDD-87A9-839319531F92}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C0952EAA-E99C-4804-9BC2-8B59B043C5FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C0952EAA-E99C-4804-9BC2-8B59B043C5FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C0952EAA-E99C-4804-9BC2-8B59B043C5FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C0952EAA-E99C-4804-9BC2-8B59B043C5FE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
