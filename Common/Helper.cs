@@ -7,8 +7,18 @@ using System.Threading.Tasks;
 
 namespace Common
 {
-    public class Helper
+    public interface IHelper
     {
+        string GetMeBoo(string x);
+    }
+
+
+    public class Helper :IHelper
+    {
+        public int publicInt { get; set; }
+
+        private string privateString { get; set; }
+
         public static T JsonToObject<T>(string json)
            where T : new()
         {
@@ -25,6 +35,16 @@ namespace Common
         public static string ToJson<T>(T obj)
         {
             return JsonConvert.SerializeObject(obj);
+        }
+
+        public static string GetMeFoo(string x)
+        {
+            return $"Foo{{{x}}}";
+        }
+
+        public string GetMeBoo(string x)
+        {
+            return $"Boo{{{x}}}";
         }
 
 
